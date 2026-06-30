@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5c0029/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5c0029/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太上化道度世仙經
+  date: '2015-08-29 00:16:54.784066'
+  source:
+    repository: kanripo
+    path: KR5c0029
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0029_000-ZTDZ.yaml, hash: 'sha256:04d017e5319296b5682246e036e95255287e7e72e7adab63ef671618e5e6970e'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0029_000-ZTDZ.markers.yaml, hash: 'sha256:649b3fdf0f41323e0401ab7417a01d90fa407e2c15ea0c094f893d04a5ff1ea8'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0029_SJB_000-110403c
+    span:
+    - body
+    - 0
+    - 3628
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:3e338bc1e76fa251fb181f1114aa3146be4454c70ebb6f8a2045fd0f4a803bb0
